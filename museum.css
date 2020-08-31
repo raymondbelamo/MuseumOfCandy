@@ -1,3 +1,38 @@
 body {
     background: #f5d9df;
+    font-family: "Nunito", sans-serif;
 }
+
+.navbar-dark .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ea1c2c;
+}
+
+span.red-slash {
+    color: #ea1c2c;
+}
+
+.col-lg-6 h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1150px) {
+    .col-lg-6 h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
