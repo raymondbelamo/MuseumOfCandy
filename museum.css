@@ -3,6 +3,19 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.blurb h2 {
+    color: #ea1c2c;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
 .navbar-dark .navbar-brand {
     color: #ea1c2c;
     font-size: 1.5rem;
@@ -27,6 +40,11 @@ span.red-slash {
 .col-lg-6 h1 {
     font-weight: 100;
     font-size: 3.5rem;
+}
+
+.scroll {
+    background: #dec0de;
+    transition: background 500ms;
 }
 
 @media (max-width: 1150px) {
